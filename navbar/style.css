@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 4rem;
     background: rgb(0, 21, 79)
 }
 
@@ -38,5 +39,34 @@
 }
 
 nav {
-    margin-right: 26px;
+    margin-right: 40px;
+}
+
+body{
+    background: #edf2f7;
+}
+
+.main{
+    display: flex;
+    margin: 1rem 3rem;
+}
+
+aside{
+    width: 25%;
+    margin-right: 25px;
+}
+
+main{
+    width: 75%;
+}
+
+aside , main {
+    display: flex;
+    background: #ffffff;
+    height: 500px;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    justify-content: center;
+    
 }
