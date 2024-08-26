@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 21, 79)
+}
+
+.logo img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a{
+    color: aliceblue;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.logo-name {
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 26px;
+}
